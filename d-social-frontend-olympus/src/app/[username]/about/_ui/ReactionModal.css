@@ -1,0 +1,64 @@
+.tas_reaction_modal_wrapper {
+   background-color: #fff;
+   width: 500px;
+   max-height: 600px;
+   padding: 20px 20px;
+}
+
+.tas_reaction_modal_title {
+   color: #307777 !important;
+   font-family: Poppins;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.tas_reaction_friend_container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.tas_reaction_friend_img_container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.tas_reaction_friend_img {
+   width: 56px;
+   height: 56px;
+   border-radius: 56px;
+}
+
+.tas_reaction_friend_details_container {
+   margin-left: 15px;
+}
+
+.tas_reaction_friend_name {
+   color: #000 !important;
+   font-family: Poppins;
+   font-size: 16px;
+}
+
+.tas_reaction_friend_mutual {
+   color: #000;
+   font-family: Poppins;
+   font-size: 12px;
+   opacity: 0.5;
+}
+
+.tas_reaction_add_friend_btn {
+   width: 96px;
+   height: 33px;
+   border-radius: 4px;
+   background: #307777;
+   color: #fff !important;
+   font-family: Poppins;
+   font-size: 14px;
+   border: none;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}

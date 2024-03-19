@@ -1,0 +1,61 @@
+.tas_privacy_modal_container{
+    width: 557px;
+height: 407px;
+}
+.tas_privacy_modal_title{
+    color: #333 !important;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-weight: bold;
+}
+
+.tas_privacy_modal_line{
+    height: 1px;
+    opacity: 0.1;
+background: #030229;
+}
+
+.tas_custome_label_title{
+color: #1D1F23 !important;
+font-family: Roboto;
+font-size: 16px;
+font-weight: bold;
+}
+
+.tas_custome_label_details{
+color: #9A9B9D !important;
+font-family: Roboto;
+font-size: 14px;
+}
+
+.tas_privacy_modal_btn_container{
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.tas_privacy_modal_done_btn{
+    padding: 3px 30px;
+    border-radius: 6px;
+background: #307777;
+color: #FFF !important;
+font-family: Roboto;
+font-size: 16px;
+border: none;
+margin-left: 10px;
+font-weight: bold;
+}
+
+.tas_privacy_modal_cancel_btn{
+    padding: 3px 30px;
+    border-radius: 6px;
+background: #fff;
+color: #307777 !important;
+font-family: Roboto;
+font-size: 16px;
+border: none;
+margin-left: 20px;
+font-weight: bold;
+}

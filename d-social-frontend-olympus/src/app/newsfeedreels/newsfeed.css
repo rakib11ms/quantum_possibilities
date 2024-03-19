@@ -1,0 +1,38 @@
+.top {
+    position: absolute;
+    margin-top: 4px !important;
+    top: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.left {
+    left: 5px;
+}
+
+.right {
+    right: 5px;
+    text-align: right;
+}
+
+.mx-auto .middle {
+    margin-top: 50%;
+    position: absolute;
+    /* margin: auto; */
+    display: flex;
+    /* place-items: center; */
+    justify-content: center;
+}
+
+
+.story-div {
+    overflow: "hidden";
+    width: "165px";
+    height: "273px";
+    borderRadius: "8px";
+    position: "relative";
+}
+

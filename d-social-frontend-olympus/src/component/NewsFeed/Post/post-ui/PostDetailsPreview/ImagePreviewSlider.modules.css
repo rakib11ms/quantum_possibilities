@@ -1,0 +1,13 @@
+.main__image__slider__container {
+  position: "relative";
+  height: "80vh";
+}
+
+.button__next__prev {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.701);
+  height: 100vh;
+  width: 50px;
+}

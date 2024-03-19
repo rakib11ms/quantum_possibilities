@@ -1,0 +1,58 @@
+.main__postHeader__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main__postHeader__wrapper .profile_pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_pic img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.main__postHeader__wrapper .right__profile__area {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.right__profile__area .time__glob {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: start;
+}
+
+.time__glob .point {
+  display: inline-block;
+  height: 2px;
+  width: 2px;
+  background-color: gray;
+}
+
+.main__postHeader__wrapper .side__left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: end;
+}
+
+.right__profile__area .name_time_wrapper p {
+  color: #333 !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

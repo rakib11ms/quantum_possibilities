@@ -1,0 +1,13 @@
+.tas_gender_modal_wrapper{
+    min-width: 359px;
+    min-height: 263px;
+    padding: 13px 21px;
+}
+
+.tas_gender_modal_title{
+    color: #101828 !important;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 20px;
+}

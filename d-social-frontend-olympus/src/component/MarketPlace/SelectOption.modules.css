@@ -1,0 +1,30 @@
+.input__area {
+  width: 100%;
+}
+
+.input__area label {
+  margin-bottom: 5px;
+}
+
+.select__area {
+  padding: 8px 8px !important;
+  width: 100%;
+  border: 1px solid gray;
+  color: gray;
+  background-color: #f9f9fc;
+  border: 1px solid var(--Neutral-Gray-Gray-100, #e0e2e7);
+
+  appearance: none; /* Remove default arrow in Firefox */
+  -webkit-appearance: none; /* Remove default arrow in WebKit/Blink browsers */
+  padding: 8px; /* Adjust padding to make room for the custom arrow */
+  background-image: url('./assets/select-arrow.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc; /* Add border for styling */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.form__wrapper .input__area {
+  margin-top: 20px;
+  width: 100%;
+}

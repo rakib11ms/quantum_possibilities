@@ -1,0 +1,32 @@
+.thumbnail-div-content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thumbnail-div-content-margin-top {
+    margin-top: 10px;
+}
+
+.thumbnail-div-content-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.thumb-imgeee{
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnail-div {
+    border-radius: 10px;
+    /* padding-top: 10px; */
+    padding-bottom: 5px;
+    margin: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    color: black;
+  }
+  .thumbnail-div:hover {
+    color: black;
+  }

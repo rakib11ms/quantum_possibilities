@@ -1,0 +1,60 @@
+.tas_birthday_modal_wrapper{
+    min-width: 500px;
+    min-height: 263px;
+    padding: 35px 28px;
+    overflow: hidden;
+}
+
+.tas_birthday_modal_title{
+    color: #307777 !important;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: bold;
+}
+
+.tas_birthday_modal_details_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tas_birthday_modal_details{
+    color: #847C7C !important;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+max-width: 280px;
+}
+
+
+.tas_brithday_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tas_form_bithday_submit_btn{
+border-radius: 7px;
+background: #307777;
+width: 60%;
+color: #FFF !important;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.tas_form_birthday_cancle_btn{
+    border-radius: 7px;
+background: #fff;
+width: 60%;
+color: #847C7C !important;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 10px;
+}

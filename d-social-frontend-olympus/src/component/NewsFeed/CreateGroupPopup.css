@@ -1,0 +1,46 @@
+.tas_group_friend_select div{
+    border: none;
+}
+
+.tas_group_chat_friend_container{
+    /* border-bottom: 1px solid #ccc !important; */
+    padding: 8px;
+    align-items: center;
+    gap: 15px;
+}
+
+.tas_group_chat_friend_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    object-fit: contain;
+    border: 1px solid gray;
+}
+
+.tas_group_chat_friend_multi_select{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tas_button_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.tas_submit_btn{
+border-radius: 7px;
+background: #307777;
+width: 90%;
+max-height: 45px;
+color: #FFF !important;
+font-family: Poppins;
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 10px;
+}

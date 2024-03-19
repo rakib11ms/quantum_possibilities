@@ -1,0 +1,31 @@
+.comment__wrapper button {
+   color: #333;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: transparent;
+}
+
+.input__action__media {
+   display: flex;
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   gap: 14px;
+   align-items: center;
+   justify-content: space-around;
+   padding: 5px 15px;
+}
+.each_button {
+   cursor: pointer;
+}
+
+.view__more__comments__button:hover {
+   color: blue !important;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}

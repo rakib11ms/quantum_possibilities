@@ -1,0 +1,73 @@
+.like__comment_action_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.action__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action__wrapper p {
+  color: #b8babf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -8px;
+  text-transform: capitalize;
+}
+
+.action__wrapper .reaction__count {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.action__wrapper .share__comment_count__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.count__icons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+}
+
+.like_share_comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  column-gap: 10px;
+}
+
+.Thamsup_like {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+  cursor: pointer;
+}
+.bg-effect {
+}
+
+.reaction__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 6px;
+}
+
+.reaction-comment-icons > img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: 0.2s ease;
+}

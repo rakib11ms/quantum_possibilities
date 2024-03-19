@@ -1,0 +1,22 @@
+.share__post__button {
+  border-radius: 8px;
+  background: #0b3243;
+  width: 100%;
+  padding: 10px;
+  color: #fff !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.shared_description {
+  color: #333 !important;
+  text-align: justify;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}

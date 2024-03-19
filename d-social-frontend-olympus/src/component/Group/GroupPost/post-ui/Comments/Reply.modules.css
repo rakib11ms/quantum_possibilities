@@ -1,0 +1,126 @@
+.reply__wrapper {
+   width: 100%;
+   display: flex;
+   justify-content: start;
+   gap: 8px;
+   margin-top: 10px;
+}
+
+.reply__wrapper .profile_pic {
+   height: 40px;
+   min-width: 40px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.comment__name__wrapper .name {
+   color: #000 !important;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.comment__name__wrapper .actual__comment {
+   color: #3d444d;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: 5px;
+}
+
+.comment__full .comment__name__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   gap: 10px;
+}
+
+.comment__full .comment_name {
+   border-radius: 16px;
+   background: #f0f2f5;
+   padding: 8px 2px 8px 17px;
+}
+.comment__full {
+   position: relative;
+}
+.comment__full .reaction__count__wrapper {
+   background-color: white;
+   position: absolute;
+   bottom: -15px;
+   right: 50px;
+   display: flex;
+   align-items: center;
+   padding: 5px 10px;
+   border-radius: 50px;
+   justify-content: start;
+   gap: 2px;
+   box-shadow: gray;
+}
+
+.reaction__count__wrapper .reaction__Comment__Svg {
+   display: flex;
+}
+
+.text__wrapper .Like__reply {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   gap: 5px;
+}
+
+.text__wrapper .time__like__reply {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 12px;
+   margin-top: 5px;
+}
+
+.time__like__reply p {
+   color: #000 !important;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   cursor: pointer;
+}
+
+.Like__reply .view__more__reply {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   cursor: pointer;
+}
+
+.view__more__reply p {
+   color: #000 !important;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+/* main reply */
+.main__reply {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   width: 100%;
+}
+
+.main__reply .profile_pic {
+   height: 40px;
+   width: 45px;
+   border-radius: 50px;
+   overflow: hidden;
+}
+.main__reply .input {
+   padding: 14px 7px;
+   background-color: #f0f2f5;
+   border: none;
+   outline: none;
+}

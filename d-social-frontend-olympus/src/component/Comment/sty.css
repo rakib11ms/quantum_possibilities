@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-section-wrapper {
+    padding: 5px;
+}
+
+.comment-header-with-form {
+    display: flex;
+    /* align-items: center; */
+}
+
+.comment-header-image {
+    margin-top: 5px;
+}
+
+.comment-header-image-person {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.main-comment-person-image-1 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-header-form {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.comment-txt-person-name {
+    font-weight: bold;
+}
+
+.comment-input {
+    height: 55px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+.main-comment-wrapper {
+    display: flex;
+    margin-left: 60px;
+    padding-bottom: 8px;
+    padding-top: 12px;
+    border: none;
+}
+
+.main-comment-reaction-emoji-share-wrapper {
+    display: flex;
+       position: relative;
+}
+
+.main-comment-text {
+    padding-left: 14px;
+}
+
+.comment-txt {
+    margin-top: 5px;
+}
+
+.main-comment-reply-div-wrapper {
+    display: flex;
+    margin-top: 10px;
+}

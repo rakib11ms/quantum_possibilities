@@ -1,0 +1,53 @@
+.storyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.storyBox {
+  border-radius: 5px;
+  width: 20%;
+  height: 40vh;
+  background-color: #718ded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.storyBox2 {
+  border-radius: 5px;
+  width: 20%;
+  height: 40vh;
+  background-color: #d055a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.profSideBar {
+  background-color: white;
+  padding: 10px 0;
+  height: 100vh;
+}
+
+.link_color {
+  color: white;
+  font-weight: 700;
+}
+
+.stroyIconSpan {
+  fill: #0b3243;
+  display: flex;
+  background-color: #f2f2f2;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  width: 50px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}

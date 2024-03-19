@@ -1,0 +1,31 @@
+
+.tas_suggested_friend_wrapper{
+    display: grid;
+  grid-template-columns: 2fr 10fr;
+  margin-top: 80px;
+}
+
+.tas_suggested_page_wrapper{
+  background-color: #fff;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+
+.tas_suggested_grid_wrapper{
+display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  gap: 20px;
+}
+
+.tas_suggested_page_title{
+    color: #2F2C2C !important;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+

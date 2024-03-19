@@ -1,0 +1,61 @@
+.private_group_page_block_right_view_container{
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 10px;
+}
+
+.private_group_page_block_right_view_about_title{
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 5px !important;
+}
+
+.private_group_page_block_right_view_about{
+color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 182.1%; /* 21.852px */
+padding-right: 20px;
+white-space: pre-line;
+    overflow-wrap: break-word;
+}
+
+.private_group_page_block_right_view_about_button{
+    color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 182.1%;
+padding-right: 20px;
+border: 0px;
+background-color: #fff;
+cursor: pointer;
+}
+
+.private_group_page_block_right_view_text_title_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.private_group_page_block_right_view_text_title{
+    color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 182.1%;
+margin-left: 5px;
+margin-bottom: 0 !important;
+margin-top: 3px !important;
+}
+
+.private_group_page_block_right_view_text{
+    color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+padding: 0 30px 0 20px;
+}

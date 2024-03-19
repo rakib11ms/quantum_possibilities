@@ -1,0 +1,260 @@
+/* TopNewsCaro.module.css (or your preferred CSS file) */
+.slide {
+  position: relative;
+  width: 90%;
+  margin-left: 9px;
+  height: 25vh;
+}
+
+.profile_image {
+  border-radius: 10px !important;
+  height: 30vh;
+}
+
+.single_image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: grid;
+  place-items: center;
+  /* padding: 5px; */
+  border-radius: 15px;
+}
+
+/* Style for the overlay */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 10px !important;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the overlay background color and opacity */
+  color: #fff;
+  /* Text color */
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  /* padding: 5px; */
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.description {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+/* Style for the overlay text */
+.overlay h3 {
+  visibility: hidden;
+  font-size: 4px;
+  /* Adjust the font size */
+  margin-bottom: 10px;
+  /* Adjust the spacing */
+}
+
+.seeMoreLink {
+  margin-top: 2px;
+  font-size: 0.6rem;
+  white-space: none;
+  /* Adjust the font size */
+}
+
+/* Remove underlines from anchor links */
+.slide a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+.seeMoreLink:hover {
+  text-decoration: underline;
+}
+
+/* newsfeedReels.module.css */
+
+/* Container for the slider and arrows */
+.sliderContainer {
+  position: relative;
+}
+
+/* Custom arrow styles */
+.customArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  background-color: #285df0;
+  /* Arrow background color */
+  border-radius: 50%;
+  /* Makes the arrow circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.customArrow:hover {
+  opacity: 1;
+}
+
+/* Style for left arrow */
+.leftArrow {
+  left: 10px;
+  /* Adjust the left position as needed */
+  color: #ffffff;
+}
+
+/* Style for right arrow */
+.rightArrow {
+  right: 10px;
+  /* Adjust the right position as needed */
+  color: #fff;
+}
+
+/* You can add more CSS to customize the appearance of your slider content */
+
+.slide:hover .overlay {
+  opacity: 1;
+}
+.overlay_Picon_name {
+  margin-top: 120%;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  text-align: center;
+  /* align-items: center; */
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
+}
+.overlay_Picon_name_create {
+  margin-top: 120%;
+  color: black;
+  /* background-color: #fff; */
+  position: absolute;
+  bottom: -16px;
+  /* left: 25px; */
+  width: 100%;
+  /* display: flex !important;
+  justify-content: space-evenly !important;
+  text-align: center; */
+}
+
+.overlay_Picon_name {
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.createStory {
+  font-size: 0.9rem;
+  background-color: #fff;
+  padding-bottom: 10px;
+  font-weight: 600;
+
+  /* Adjust the font size */
+}
+
+.createStory:hover {
+  text-decoration: underline;
+}
+.single_image_create {
+  border-radius: 10px !important;
+  height: 25vh;
+  width: 100%;
+}
+.create-svg-div {
+  background: #fff !important;
+}
+.create-svg {
+  /* margin-top: -20%; */
+  background: #fff;
+}
+
+@media screen and (max-width: 783px) {
+  /* .mob-site-logo{
+    width: 100px;
+    height: 80px;
+  } */
+  .overlay_Picon_name {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 2px;
+    display: flex;
+  }
+  .slide {
+  position: relative;
+  width: 90%;
+  margin-left: 9px;
+  height: 20vh;
+  /* border: 1px solid gray; */
+}
+  .overlay {
+  position: absolute;
+  bottom: 1;
+  left: 50%;
+  border-radius: 10px !important;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 44, 44, 0.5);
+  /* Adjust the overlay background color and opacity */
+  color: #fff;
+  /* Text color */
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  /* padding: 5px; */
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+.single_image_create {
+  border-radius: 10px !important;
+  height: 23vh;
+  width: 100%;
+}
+
+  .seeMoreLink {
+    font-size: 0.5rem;
+    /* Adjust the font size */
+    /* margin-right: 0px; */
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .createStory {
+    font-size: 0.5rem;
+    /* Adjust the font size */
+    /* margin-right: 0px; */
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+  }
+.overlay_Picon_name_create {
+  /* margin-top: 120%; */
+  /* color: black; */
+  /* background-color: #fff; */
+  /* position: relative; */
+  /* bottom: -16px; */
+  /* left: 25px; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* display: flex !important;
+  justify-content: space-evenly !important;
+  text-align: center; */
+}
+/* .newsfeedReels_overlay{
+  height: 50vh;
+} */
+
+}

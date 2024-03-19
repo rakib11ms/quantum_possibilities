@@ -1,0 +1,10 @@
+.tas_group_photo_media_container{
+    background-color: white;
+    margin-top: 1px;
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* min-height: 50vh */
+}

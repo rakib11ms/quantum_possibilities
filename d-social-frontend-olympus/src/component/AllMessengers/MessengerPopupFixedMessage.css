@@ -1,0 +1,215 @@
+.tas_messenger_left_icon_container {
+  margin-right: 6px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tas_messenger_right_icon_container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-left: 1px;
+}
+
+.tas_scrollable_contents {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.tas_scrollable_contents::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.tas_scrollable_contents::-webkit-scrollbar-thumb {
+  background: #959ba1;
+  border-radius: 10px;
+}
+
+.tas_scrollable_contents::-webkit-scrollbar-track {
+  background: #fff;
+  margin-top: 8px;
+  border-radius: 10px;
+  height: "100%";
+}
+
+.tas_outgoing_message_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.tas_outgoing_message_container .icon {
+  visibility: hidden;
+}
+.tas_outgoing_message_container:hover .icon {
+  visibility: visible;
+}
+
+.tas_message_img_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.tas_message_img_container .icon {
+  visibility: hidden;
+}
+.tas_message_img_container:hover .icon {
+  visibility: visible;
+}
+
+.tas_delete_message_text{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 0px 0px 10px;
+    background: #ebf2f2;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    display: block;
+    color: #9a9fbf;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.tas_delete_message_incoming_text{
+  border-radius: 0px 10px 10px 0px;
+}
+
+.tas_message_outgoing_time_text{
+  color: #9a9fbf;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 5px 0px;
+    text-align: right;
+}
+
+.tas_message_incoming_time_text{
+  color: #9a9fbf;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 5px 0px;
+    text-align: left;
+}
+
+.tas_mssengrid_tagp {
+  color: #9a9fbf;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.5%;
+  margin-left: 10px;
+  /* 15.85px */
+}
+
+.tas_green_div {
+  position: absolute;
+  bottom: 2px;
+  right: 3px;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: green;
+  /* Set the background color */
+}
+
+.tas_group_info{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tas_group_img_container{
+display: flex;
+  justify-content: center;
+}
+
+.tas_profile_img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 2px solid #307777;
+}
+
+.tas_img_svg_overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 2px
+}
+
+.tas_group_name{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tas_group_details{
+  font-family: Poppins;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #808080 !important;
+}
+
+.tas_text_container{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px 0px 0px 10px;
+    background: #3fcdcd;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    position: relative;
+}
+
+.tas_message_outgoing_text{
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.tas_incoming_text_container{
+    max-width: 80%;
+    height: auto;
+    border-radius: 0px 10px 10px 0px;
+    background: #307777;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.tas_message_incoming_text{
+    width: 100%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    white-space: pre-wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}

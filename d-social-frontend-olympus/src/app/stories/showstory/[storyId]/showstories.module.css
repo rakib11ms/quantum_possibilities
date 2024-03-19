@@ -1,0 +1,216 @@
+.storyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* .storyBox {
+    border-radius: 5px;
+    width: 20%;
+    height: 40vh;
+    background-color: #718ded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+} */
+
+.storyBox2 {
+  border-radius: 5px;
+  width: 20%;
+  height: 40vh;
+  background-color: #d055a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.profSideBar {
+  background-color: white;
+  padding: 10px 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.link_color {
+  color: white;
+  font-weight: 700;
+}
+
+.stroyIconSpan {
+  fill: #0b3243;
+  display: flex;
+  background-color: #f2f2f2;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  width: 50px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.storyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+  background-color: black;
+  border-radius: 5px;
+}
+
+.storyBox {
+  border-radius: 5px;
+  width: 20vw;
+  height: 70vh;
+  background-color: transparent;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 10px; */
+  color: white;
+  /* border: 5px solid red; */
+  position: relative;
+}
+
+.storyContent {
+  width: 100%;
+}
+
+.overflowingText {
+  padding: 15px;
+  position: absolute;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-top: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overflowingImage {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-top: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.single_image {
+  border-radius: 10px !important;
+  height: 25vh;
+  width: 100%;
+}
+
+.story_internal_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.story_header {
+  /* height: 65vh; */
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  /* padding: 10px 3px 0 3px; */
+  background: transparent;
+  opacity: 0.5;
+  background-color: #bbbaba;
+}
+
+.story_tag_text {
+  font-size: 0.8rem;
+  margin: 2px 4px 0 2px;
+  opacity: 1;
+  color: black;
+  font-weight: 700;
+}
+
+.story_author_img {
+  margin-right: 5px;
+  border-radius: 100%;
+  width: 35px;
+  height: 40px;
+}
+
+.customArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  background-color: #285df0;
+  /* Arrow background color */
+  border-radius: 50%;
+  /* Makes the arrow circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.customArrow:hover {
+  opacity: 1;
+}
+
+/* Style for left arrow */
+.leftArrow {
+  left: 10px;
+  /* Adjust the left position as needed */
+  color: #ffffff;
+}
+
+.rightArrow {
+  right: 10px;
+  /* Adjust the right position as needed */
+  color: #fff;
+}
+
+.textBlack {
+  color: black;
+}
+
+.viewCount {
+  color: white;
+  margin-top: -0px;
+  justify-content: center;
+  display: flex;
+}
+
+.viewCount h5 {
+  color: white !important;
+  cursor: pointer;
+}
+
+.overflowList {
+  display: none;
+  /* Initially hide the list */
+  overflow: auto;
+  /* Add a scrollbar when it overflows */
+  max-height: 100px;
+  /* Set a maximum height for the list */
+  /* Add other styles as needed */
+}

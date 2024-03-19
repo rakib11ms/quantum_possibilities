@@ -1,0 +1,17 @@
+.post__wrapper {
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.wrapper {
+  padding: 8px 10px 0px 17px;
+  background-color: #fff;
+}
+
+.like_wrapper {
+  padding: 10px 9px 8px 17px;
+}

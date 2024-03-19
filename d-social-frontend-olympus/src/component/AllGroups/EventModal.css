@@ -1,0 +1,59 @@
+.dropdown-input-div {
+    border: 1px solid #c0bdbd;
+    padding: 0 10px;
+    border-radius: 10px;
+    /* margin: 10px 0; */
+    height: 55px;
+    display: grid;
+    grid-template-columns: 10% 80%;
+    align-items: center;
+}
+
+.host-small-text {
+    color: #9A9B9D;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.event-created-at {
+    color: #F81515;
+    text-align: justify;
+    font-family: "Segoe UI";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.event-title {
+    color: #000;
+    text-align: justify;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.event-btn {
+    display: inline-flex;
+    padding: 4px 9px 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: 0;
+}
+
+.no-event-container {
+    width: 543px;
+    height: 273px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    border: 1px solid;
+}

@@ -1,0 +1,106 @@
+.tas_workplace_modal_wrapper{
+    background-color: #fff;
+    width: 500px;
+    max-height: 480px;
+    padding: 20px 20px;
+}
+
+.expand_tas_workplace_modal_wrapper{
+    background-color: #fff;
+    width: 500px;
+    height: 480px;
+    padding: 20px 20px;
+}
+
+.tas_form_lable{
+  color: var(--Black-Head-Textg, #2D2F2F) !important;
+font-family: Poppins;
+font-size: 14px;
+font-weight: bold;
+}
+
+.tas_form_workplace_input{
+  width: 100% !important;
+  height: 45px;
+padding: 16px;
+border-radius: 4px;
+border: 0.75px solid rgba(63, 63, 63, 0.50);
+color: var(--Light-Gray-11, #000) !important;
+font-family: Poppins;
+font-size: 14px;
+}
+
+.tas_form_workplace_date_input{
+  width: 105% !important;
+  height: 45px;
+padding: 16px;
+border-radius: 4px;
+border: 0.75px solid rgba(63, 63, 63, 0.50);
+color: var(--Light-Gray-11, #000) !important;
+font-family: Poppins;
+font-size: 14px;
+}
+
+.tas_form_time_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.tas_form_workplace_buttons_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tas_form_checkbox_lable{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  text-wrap: nowrap;
+}
+
+.tas_form_workplace_checkbox{
+  width: 20px;
+height: 20px;
+margin-right: 10px;
+background-color: #307777;
+}
+
+.tas_form_workplace_buttons{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+.tas_form_cancle_btn{
+  padding: 5px 30px !important;
+  border-radius: 4px;
+border: 1px solid #307777;
+color: #307777;
+font-family: Poppins;
+font-size: 14px;
+font-weight: bold;
+}
+
+.tas_form_submit_btn{
+  padding: 5px 30px !important;
+  border-radius: 4px;
+border: 1px solid #307777;
+background: #307777;
+color: #fff;
+font-family: Poppins;
+font-size: 14px;
+font-weight: bold;
+margin-left: 10px;
+}
+
+.tas_workplace_delete_btn{
+  cursor: pointer;
+}
+
+.tas_workplace_three_dots{
+  cursor: pointer !important;
+}

@@ -1,0 +1,714 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;800;900&family=Noto+Sans+Tirhuta&family=Poppins:wght@100;400;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.Messenger-full-div {
+  background: #dde9e9;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Messenger-div {
+  margin: 80px 0 0 0;
+}
+
+.messenger-left-layout-full-div {
+  /* overflow-y: auto;
+    scroll-behavior: smooth; */
+  height: 100vh;
+  padding: 10px;
+}
+
+.left-chat-list-full-div {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  height: 90vh;
+  padding: 10px;
+}
+
+.left-chat-list-full-div::-webkit-scrollbar {
+  width: 2px;
+  /* Set the width of the scrollbar */
+}
+
+/* Handle portion of the scrollbar */
+.left-chat-list-full-div::-webkit-scrollbar-thumb {
+  background-color: #cfd9e0;
+  /* Set the color of the scrollbar handle */
+  border-radius: 6px;
+  /* Optional: Add border-radius to round the scrollbar handle */
+}
+
+/* Track portion of the scrollbar */
+.left-chat-list-full-div::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Set the color of the scrollbar track */
+}
+
+.messenger-left-layout-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.ccsc {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.left-messenger-input-div {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid gray; */
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.left-messenger-input {
+  border: none;
+  width: 100%;
+  height: 30px;
+  outline: none;
+}
+
+.kwys {
+  width: 100%;
+}
+
+.left-chat-list-div {
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  background: #fff;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  margin: 10px 3px 0 3px;
+  padding: 15px 3px 15px 3px;
+}
+
+.left-chat-list-div:hover {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 10px 3px 0 3px;
+  padding: 15px 3px 15px 3px;
+  cursor: pointer;
+}
+
+.chat-list-img-div {
+  /* border: 1px solid gray; */
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.chat-list-img {
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 100%;
+}
+
+.chat-list-text {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%;
+  /* 17.435px */
+  margin: 5px 0 0 0;
+}
+
+.left-demo-chat-text {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  font-size: 11px;
+  font-style: normal;
+  /* margin: -30px 0 0 0 !important; */
+  font-weight: 400;
+  /* line-height: 128.5%; */
+}
+
+.left-chat-time {
+  position: absolute;
+  /* float: bottom; */
+  /* margin: 0 auto; */
+  margin: 20px 0 0 10px;
+  display: grid;
+  place-items: center;
+}
+
+.toggle-div {
+  margin: -10px 0 0 10px;
+}
+
+.chat-head-name-div {
+  display: flex;
+  gap: 5px;
+  padding: 10px 5px;
+  align-items: center;
+}
+
+.chat-head-name {
+  border-radius: 20px;
+  background: #307777;
+  color: white;
+  padding: 2px 10px;
+  margin: 5px 0 0 0;
+}
+
+.Msnchat-head-full-div {
+  margin: 20px 0 0 0;
+  background-color: white;
+  padding: 15px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.chat-head-full-div {
+  margin: 20px 0 0 0;
+  background-color: white;
+  padding: 5px 10px 7px 10px;
+  border-radius: 5px;
+}
+
+.head-chat-icon-div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px !important;
+  cursor: pointer;
+}
+
+.cht-heead-text {
+  margin: -6px 0 0 0;
+}
+
+.mainchat-inputs-full-div {
+  background-color: white;
+  /* display: flex; */
+  padding: 3px 15px;
+  margin: 0 5px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.create-post-text {
+  color: #050505;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.privacy-select-div {
+  background-color: #E4E6EB;
+  border-radius: 20px;
+}
+
+.mschat-full-boddy-div::-webkit-scrollbar {
+  width: 2px;
+  /* Set the width of the scrollbar */
+}
+
+/* Handle portion of the scrollbar */
+.mschat-full-boddy-div::-webkit-scrollbar-thumb {
+  background-color: #cecece;
+  /* Set the color of the scrollbar handle */
+  border-radius: 6px;
+  /* Optional: Add border-radius to round the scrollbar handle */
+}
+
+/* Track portion of the scrollbar */
+.mschat-full-boddy-div::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Set the color of the scrollbar track */
+}
+
+.mschat-full-boddy-div {
+  height: 75vh;
+  overflow-y: auto;
+  padding: 12px 0 10px 0;
+  scroll-behavior: smooth;
+  /* border: 1px solid gray; */
+}
+
+.chat-full-boddy-div {
+  height: 75.5vh;
+  overflow-y: auto;
+  padding: 12px 0 10px 0;
+  scroll-behavior: smooth;
+  /* border: 1px solid gray; */
+}
+
+.head-chat-img-div {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.cht-heead-img {
+  width: 43px;
+  height: 43px;
+}
+
+.right-icon-div {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.right-icon-span {
+  width: 45px;
+  height: 38px;
+  border-radius: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #e7f0f0;
+}
+
+.right-icon-spans {
+  width: 55px;
+  height: 38px;
+  border-radius: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #e7f0f0;
+}
+
+.incomming-div {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 0 10px;
+}
+
+.incomming-chat-text-short {
+  border-radius: 0px 10px 10px 0px;
+  background: #307777;
+  width: 150px;
+  display: inline-flex;
+  padding: 4px 11px 4px 4px;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.incomming-chat-text-big {
+  border-radius: 0px 10px 10px 0px;
+  background: #307777;
+  width: 250px;
+  /* display: inline-flex; */
+  padding: 4px 11px 4px 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin: -10px 0 0 0;
+}
+
+.incomming-img {
+  border-radius: 100%;
+}
+
+.Outgoing-div {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin: 5px 0;
+}
+
+.Outgoing-chat-text-short-div {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: -2px 0 0 0;
+}
+
+.Outgoing-chat-text-short {
+  border-radius: 10px 0px 0px 10px;
+  padding: 4px 10px;
+  background: #3fcdcd;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  /* margin: 2px 0 0 0; */
+}
+
+.Outgoing-chat-text-big {
+  border-radius: 10px 0px 0px 10px;
+  padding: 4px 10px;
+  background: #3fcdcd;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin: -10px 0 0 0;
+}
+
+.right-side-full-div {
+  background-color: white;
+  height: 100vh;
+  margin: 20px 15px 0 15px;
+  border-radius: 5px;
+}
+
+.mssengridimg-div {
+  /* border: 1px solid gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 20px 0 0 0;
+}
+
+.mssengridimg {
+  width: 167px;
+  height: 167px;
+  border-radius: 100%;
+}
+
+.mssengrid-tag-div {
+  display: grid;
+  place-items: center;
+  margin: 10px 0;
+}
+
+.mssengrid-tagh5 {
+  color: #001835;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 158.5%;
+  /* 25.36px */
+}
+
+.mssengrid-tagp {
+  color: #001835;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.5%;
+  /* 15.85px */
+}
+
+.mssengrid-spm-icons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.sss {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-button {
+  border: none !important;
+  /* background-color: white !important; */
+  color: #000;
+}
+
+.accordion-button:not(.collapsed) {
+  /* background-color: rgb(0, 0, 0) !important; */
+  border: none !important;
+  color: #000;
+}
+
+.accordion-chevron-svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-chevron-svg.expanded {
+  transform: rotate(180deg);
+}
+
+.mschat-full-boddy-div::-webkit-scrollbar {
+  width: 2px;
+  /* Set the width of the scrollbar */
+}
+
+/* Handle portion of the scrollbar */
+.mschat-full-boddy-div::-webkit-scrollbar-thumb {
+  background-color: #cecece;
+  /* Set the color of the scrollbar handle */
+  border-radius: 6px;
+  /* Optional: Add border-radius to round the scrollbar handle */
+}
+
+/* Track portion of the scrollbar */
+.mschat-full-boddy-div::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Set the color of the scrollbar track */
+}
+
+.chat-full-boddy-div::-webkit-scrollbar {
+  width: 2px;
+  /* Set the width of the scrollbar */
+}
+
+/* Handle portion of the scrollbar */
+.chat-full-boddy-div::-webkit-scrollbar-thumb {
+  background-color: #cecece;
+  /* Set the color of the scrollbar handle */
+  border-radius: 6px;
+  /* Optional: Add border-radius to round the scrollbar handle */
+}
+
+/* Track portion of the scrollbar */
+.chat-full-boddy-div::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Set the color of the scrollbar track */
+}
+
+.mainchat-input {
+  height: 2vh;
+  border-radius: 10px;
+  outline: none;
+}
+
+.mainchat-left-side-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+
+.mainchat-right-side-div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+
+.more {
+  cursor: pointer;
+}
+
+.full-accordion-div {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1366px) {
+  .chat-full-boddy-div {
+    height: 64vh;
+    padding: 10px 0;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    /* border: 1px solid gray; */
+  }
+
+  .chat-head-full-div {
+    background-color: white;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+  }
+
+  .right-side-full-div {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: white;
+    height: 84vh;
+    margin: 10px 5px 0 5px;
+  }
+
+  .chat-list-img {
+    width: 40px;
+    height: 25px;
+    margin: 20px 0 0 20px;
+  }
+
+  .chat-list-img-div {
+    display: grid;
+    /* border: 1px solid gray; */
+    place-items: center;
+  }
+
+  .chat-list-text {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 158.5%; 17.435px */
+    margin: 5px 0 0 0;
+  }
+
+  .left-chat-list-div {
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    background: #fff;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    margin: 10px 3px 0 3px;
+    padding: 2px 3px;
+  }
+
+  .left-chat-list-div:hover {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px 3px 0 3px;
+    padding: 2px 3px;
+    cursor: pointer;
+  }
+
+  .left-demo-chat-text {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    font-size: 9px;
+    font-style: normal;
+    /* margin: -30px 0 0 0 !important; */
+    font-weight: 400;
+    line-height: 0.3;
+  }
+
+  .Msnchat-head-full-div {
+    margin: 10px 0 0 0;
+    background-color: white;
+    padding: 15px 10px 10px 10px;
+    border-radius: 10px;
+  }
+
+  .Messenger-full-div {
+    background: #dde9e9;
+    height: 100vh;
+    /* overflow: hidden; */
+  }
+
+  .messenger-left-layout-full-div {
+    /* overflow-y: auto;
+    scroll-behavior: smooth; */
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .left-chat-list-full-div {
+    /* overflow-y: auto;
+    scroll-behavior: smooth; */
+    height: 80vh;
+    padding: 10px;
+  }
+
+  .left-chat-list-full-div::-webkit-scrollbar {
+    width: 2px;
+    /* Set the width of the scrollbar */
+  }
+
+  /* Handle portion of the scrollbar */
+  .left-chat-list-full-div::-webkit-scrollbar-thumb {
+    background-color: #cfd9e0;
+    /* Set the color of the scrollbar handle */
+    border-radius: 6px;
+    /* Optional: Add border-radius to round the scrollbar handle */
+  }
+
+  /* Track portion of the scrollbar */
+  .left-chat-list-full-div::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    /* Set the color of the scrollbar track */
+  }
+
+  .chat-full-boddy-div::-webkit-scrollbar {
+    width: 2px;
+    /* Set the width of the scrollbar */
+  }
+
+  /* Handle portion of the scrollbar */
+  .chat-full-boddy-div::-webkit-scrollbar-thumb {
+    background-color: #dde9e9;
+    /* Set the color of the scrollbar handle */
+    border-radius: 6px;
+    /* Optional: Add border-radius to round the scrollbar handle */
+  }
+
+  /* Track portion of the scrollbar */
+  .chat-full-boddy-div::-webkit-scrollbar-track {
+    background-color: #dde9e9;
+    /* Set the color of the scrollbar track */
+  }
+
+  .mschat-full-boddy-div::-webkit-scrollbar {
+    width: 2px;
+    /* Set the width of the scrollbar */
+  }
+
+  /* Handle portion of the scrollbar */
+  .mschat-full-boddy-div::-webkit-scrollbar-thumb {
+    background-color: #cecece;
+    /* Set the color of the scrollbar handle */
+    border-radius: 6px;
+    /* Optional: Add border-radius to round the scrollbar handle */
+  }
+
+  /* Track portion of the scrollbar */
+  .mschat-full-boddy-div::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    /* Set the color of the scrollbar track */
+  }
+
+  .mschat-full-boddy-div {
+    height: 64vh;
+    overflow-y: auto;
+    padding: 12px 0 10px 0;
+    scroll-behavior: smooth;
+    /* border: 1px solid gray; */
+  }
+
+  .right-side-full-div::-webkit-scrollbar {
+    width: 2px;
+    /* Set the width of the scrollbar */
+  }
+
+  /* Handle portion of the scrollbar */
+  .right-side-full-div::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    /* Set the color of the scrollbar handle */
+    border-radius: 6px;
+    /* Optional: Add border-radius to round the scrollbar handle */
+  }
+
+  /* Track portion of the scrollbar */
+  .right-side-full-div::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    /* Set the color of the scrollbar track */
+  }
+
+  .mainchat-inputs-full-div {
+    background-color: white;
+    /* display: flex; */
+    padding: 3px 15px;
+    margin: 5px 0 0 0;
+  }
+}

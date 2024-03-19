@@ -1,0 +1,31 @@
+.btn_layout {
+  background-color: #307777;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.btn_layout:hover {
+  background-color: #307777;
+  opacity: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_layout .img {
+  margin-right: 10px;
+}
+
+.btn_layout button {
+  border: none !important;
+  width: 100%;
+  color: #fff !important;
+  background-color: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  outline: none !important;
+  white-space: nowrap;
+}

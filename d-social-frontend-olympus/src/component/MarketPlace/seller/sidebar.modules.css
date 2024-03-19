@@ -1,0 +1,87 @@
+.sidebar__wrapper {
+  height: 100%;
+  background-color: #fff;
+}
+.each_content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.each_content .profile {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar__wrapper .sidebar__content {
+  height: 100%;
+  width: 100%;
+  padding: 36px 20px 0px 20px;
+}
+
+.sidebar__content .icons {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar__content p {
+  white-space: nowrap;
+  padding-left: 5.58px;
+  font-size: 14px;
+  color: black !important;
+}
+
+.nav__wrapper {
+  border-radius: 10px;
+}
+
+.nav__wrapper:hover {
+  background-color: #3a9c93;
+  transition: all 0.3s ease-in-out;
+}
+
+.active_bg {
+  background-color: #3a9c93;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.active_bg > .each_nav > p {
+  color: white !important;
+}
+
+.each_nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  font-weight: 500;
+}
+
+.each_nav p {
+  color: #808191 !important;
+  margin-left: 6px;
+}
+
+.each_nav .img {
+  width: 15px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.each_nav:hover p {
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+}
+
+/* _______ For Mobile Version Responsive ________ */
+@media screen and (max-width: 1200px) {
+  .each_content .profile {
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+  }
+}

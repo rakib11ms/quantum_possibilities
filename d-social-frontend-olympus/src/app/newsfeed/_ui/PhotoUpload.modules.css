@@ -1,0 +1,31 @@
+/* AutoIncreasingInput.css */
+
+.auto-increasing-input {
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  min-height: 5px;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+  border: none !important;
+  outline: none;
+}
+
+.Add_more_video__file {
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+  left: 5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+.Add_more_video__file p {
+  margin-left: 5px;
+  font-weight: 500;
+}

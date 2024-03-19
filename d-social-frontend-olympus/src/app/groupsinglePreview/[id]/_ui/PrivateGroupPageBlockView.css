@@ -1,0 +1,22 @@
+.tas_Private_GroupPage_BlockView_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    padding: 10vh 0; 
+}
+
+.tas_Private_GroupPage_BlockView_title_text{
+    color: #333;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+}
+
+.tas_Private_GroupPage_BlockView_text{
+    color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+}

@@ -1,0 +1,277 @@
+.reaction-container {
+  position: relative;
+  /* Set the container to a relative position */
+ border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+
+
+.post-reaction-icons {
+  display: none;
+  position: absolute;
+  top: -75px;
+  /* Adjust the top value to position the reaction icons properly */
+  left: 15;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0px;
+}
+
+.post-reaction-icons img {
+  margin: 0 1px;
+  
+}
+
+.reaction-container:hover .post-reaction-icons,
+.reaction-container .story-reaction-icons {
+  display: flex;
+  /* Additional styling as needed */
+}
+
+/* Other styles for your elements */
+
+/* .comment-scrollbar {
+  height: 200px;
+  overflow-y: scroll;
+} */
+
+/* .comment-scrollbar-default {
+  height: 80px;
+} */
+
+.reaction-icon {
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.whoes-post-reactions-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.whoes-post-reactions-header .whoes-post-reactions-header-item {
+  display: flex;
+  align-items: center;
+}
+
+/* .whoes-post-reactions-header .whoes-post-reactions-header-item>img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+} */
+.whoes-post-reactions-header-item {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.whoes-react {
+  display: flex;
+  padding: 0;
+}
+
+.whoes-react .MuiTab-root.Mui-selected {
+  /* Your styles here */
+  outline: none;
+  /* Remove the outline */
+}
+
+/* .custom-whoes-post-reactions-tabs {
+    padding: 0;
+    margin: 0;
+} */
+
+.whoes-post-reactions-persons {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.whoes-reactions-content {
+  margin-top: 13px;
+}
+
+.whoes-post-reactions-persons-img>img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.whoes-post-reactions-persons-info {
+  margin-left: 7px;
+}
+
+.whoes-post-reactions-persons {
+  padding-top: 5px;
+}
+
+.whoes-reaction-header {
+  display: flex;
+  justify-content: space-between;
+}
+  .mobile-header-full-div {
+    /* margin-top: 200px; */
+    visibility: hidden;
+    display: none;
+  }
+  .page-post-form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.post-rect-imoji{
+  width: 30px;
+}
+.post-rect-imoji-lve{
+  width: 20px;
+}
+.post-reaction-icons>img {
+    width: 70px;
+    transition: .2s ease;
+}
+
+.post-reaction-icons>img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.post-reaction-icons {
+    overflow: hidden;
+    border-radius: 70px;
+    background: white;
+}
+
+
+
+.like-image-icon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+.care-reacticon{
+  /* width: 20px; */
+  padding: 8px 0 0 0;
+  height: 55px !important;
+  margin: 10px 0 0 0;
+  width: 45px !important;
+}
+  .reaction-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+.care-reacti{
+  width: 52px;
+  height: 42px;
+  object-fit: contain;
+  align-self: center;
+}
+
+
+@media screen and (max-width: 500px) {
+  .post-videos {
+    width: 100%;
+    /* border: 1px solid gray; */
+    /* height: 10vh; */
+  }
+.popup-icon{
+  width: 20px;
+  height: 50px;
+}
+.popup-icon-care{
+    width: 15px;
+}
+  .one-item {
+    width: 100%;
+  }
+.post-reaction-icons>img {
+    width: 50%;
+    height: 5vh;
+    transition: .2s ease;
+}
+
+.post-reaction-icons>img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+  .post-multiple-image-video {
+    width: 100%;
+  }
+    .mobile-av-auth-pic {
+    width: 25px;
+    height: 25px;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+  }
+   .mobile-header-full-div {
+    /* margin-top: 200px; */
+    visibility: visible;
+    display: block;
+  }
+  .mobile-market-auth-pic{
+      width: 25px;
+    height: 23px;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+  }
+  .comment-zone-div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 0 10px 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: white;
+  }
+  .reaction-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .reaction-icon {
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+}
+.post-rect-imoji{
+  width: 25px;
+}
+.post-rect-imoji-lve{
+  width: 15px;
+}
+.reaction-container {
+  position: relative;
+  /* Set the container to a relative position */
+  padding: 5px 0;
+  border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+.post-reaction-icons {
+  /* display: none; */
+  position: absolute;
+  top: -75px;
+  gap: 0;
+  /* Adjust the top value to position the reaction icons properly */
+  left: 4;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px 15px 5px 0;
+  width: 100%;
+}
+.care-reacticon{
+  /* width: 20px; */
+  padding: 8px 0 0 0;
+  height: 35px !important;
+  width: 40px !important;
+}
+}
+

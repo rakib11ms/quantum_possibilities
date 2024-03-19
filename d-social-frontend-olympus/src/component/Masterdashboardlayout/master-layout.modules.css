@@ -1,0 +1,10 @@
+.left_user_sidebar {
+  display: block;
+}
+
+/* _______ For Mobile Version Responsive ________ */
+@media screen and (max-width: 768px) {
+  .left_user_sidebar {
+    display: none;
+  }
+}

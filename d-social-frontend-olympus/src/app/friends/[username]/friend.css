@@ -1,0 +1,78 @@
+.tas_all_friends_grid_wrapper {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  padding: 10px 20px 20px 20px;
+  gap: 15px;
+  row-gap: 20px;
+  background-color: #fff;
+  margin: 15px;
+}
+
+.tas_all_friends_grid_title {
+  color: #000 !important;
+  font-family: Poppins;
+  font-size: 20px;
+  grid-column: 1/3;
+}
+
+.tas_friend_container {
+  border-radius: 8px;
+  border: 1px solid #ececec;
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tas_friend_img_container {
+  display: flex;
+  align-items: center;
+}
+
+.tas_friend_details {
+  margin-left: 20px;
+}
+
+.tas_friend_img {
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+}
+
+.tas_friend_name {
+  color: #000 !important;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.tas_mutual_friend {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.tas_friend_unfollow_btn {
+  width: 109px;
+  height: 46px;
+  border-radius: 8px;
+  background: #ebf2f2;
+  border: none;
+  outline: none;
+  color: #307777 !important;
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+.tas_friend_unfriend_btn {
+  width: 109px;
+  height: 46px;
+  border-radius: 8px;
+  background: #307777;
+  border: none;
+  outline: none;
+  color: #fff !important;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-left: 10px;
+}

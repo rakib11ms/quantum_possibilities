@@ -1,0 +1,130 @@
+.page-reaction-container {
+  position: relative;
+  /* Set the container to a relative position */
+}
+
+.page-post-reaction-icons {
+  /* display: none; */
+  position: absolute;
+  top: -38px;
+  /* Adjust the top value to position the reaction icons properly */
+  left: 110px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0px;
+}
+
+/* .page-reaction-container .page-post-reaction-icons, */
+.page-reaction-container:hover .post-reaction-icons {
+  display: flex;
+  /* Additional styling as needed */
+}
+
+.page-post-reaction-icons {
+  overflow: hidden;
+  border-radius: 70px;
+  background: white;
+}
+
+.page-post-reaction-icons > img {
+  width: 50px;
+  transition: 0.2s ease;
+}
+
+.page-post-reaction-icons > img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.reply-div-page {
+  height: 150px;
+  overflow-x: hidden;
+  border: 1px solid #d9d9d9;
+}
+
+.page-reviews-post-reaction-icons {
+  /* display: none; */
+  position: absolute;
+  top: -40px;
+  /* Adjust the top value to position the reaction icons properly */
+  left: 174px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0px;
+}
+
+.page-reviews-reaction-container {
+  position: relative;
+  /* Set the container to a relative position */
+}
+
+/* .page-reviews-reaction-container .page-reviews-post-reaction-icons, */
+.page-reviews-reaction-container:hover .post-reaction-icons {
+  display: flex;
+  /* Additional styling as needed */
+}
+
+.page-reviews-post-reaction-icons {
+  overflow: hidden;
+  border-radius: 70px;
+  background: white;
+}
+
+.page-reviews-post-reaction-icons > img {
+  width: 50px;
+  transition: 0.2s ease;
+}
+
+.page-reviews-post-reaction-icons > img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.transperency-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  /* border: 1px solid gray; */
+}
+
+.about-trarency-p1 {
+  color: #636363;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-trarency-div {
+  padding: 0 10px;
+}
+
+.admin-inf-trcparency {
+  color: #636363;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  margin-top: -10px;
+}
+
+.about-transpency-tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.featured-tags-div{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid gray; */
+  /* margin: ; */
+}
+.featured-tags {
+  color: #0b3243;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

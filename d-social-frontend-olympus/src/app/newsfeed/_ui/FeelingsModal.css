@@ -1,0 +1,36 @@
+.tas_feeling_grid_wrapper{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.tas_feeling_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tas_feeling_contaier{
+    width: 35px;
+height: 35px;
+background-color: #F0F2F5;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tas_feeling{
+    color: #222 !important;
+font-family: Poppins;
+font-size: 14px;
+margin-left: 10px;
+}
+
+.tas_feeling_img{
+    width: 25px;
+height: 25px;
+object-fit: contain;
+}

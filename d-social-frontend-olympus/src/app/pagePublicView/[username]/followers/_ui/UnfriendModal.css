@@ -1,0 +1,38 @@
+.unfriend_modal_container{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.unfriend_modal_title{
+    color: var(--Gray-900, #101828) !important;
+font-family: Inter;
+font-size: 18px;
+}
+
+.unfriend_modal_details{
+    color: var(--Gray-500, #667085) !important;
+font-family: Inter;
+font-size: 14px;
+margin-top: 10px;
+}
+
+.unfriend_modal_btn{
+    padding: 8px 50px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.unfriend_modal_cancel_btn{
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    color: var(--Gray-700, #344054) !important;
+}
+
+.unfriend_modal_delete_btn{
+    border: 1px solid var(--Gray-300, #D92D20);
+    background: var(--White, #D92D20);
+    color: var(--Gray-700, #FFF) !important;
+}

@@ -1,0 +1,117 @@
+.main__story__page {
+   background-color: black;
+   position: relative;
+}
+
+.story__wrapper {
+   display: grid;
+   grid-template-columns: 2fr 10fr;
+   height: 100vh;
+}
+
+.story__wrapper .story__likers {
+   background-color: white;
+   height: 100%;
+   width: 100%;
+}
+
+.main__story__wrapper {
+   max-width: 450px;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+   position: relative;
+}
+.main__story__wrapper .story__img {
+   height: 100vh;
+   width: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+
+.main__story__wrapper .stories__dev {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+.story__container {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+.left__icon {
+   position: absolute;
+   top: 45vh;
+   left: 20px;
+   cursor: pointer;
+}
+.right__icon {
+   position: absolute;
+   top: 45vh;
+   right: 20px;
+   cursor: pointer;
+}
+
+/* Stories User profile */
+.top__logo__stories {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.075);
+   padding: 5px;
+}
+
+.all_stories__profile__wrapper {
+   padding: 5px;
+}
+
+.all__stories {
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.user__profile__section {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+
+   margin-bottom: 15px;
+}
+
+.profile__image {
+   min-width: 40px;
+   height: 40px;
+   border: 2px solid #307777;
+   margin: 2px;
+   border-radius: 50%;
+}
+.user__profile__section .profile__name {
+   font-size: 18px;
+   font-weight: 600;
+   color: #24292b !important;
+}
+.user__profile__section .story__time {
+   font-size: 12px;
+}
+
+/* Profile Top */
+.profile__top__section {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   background-color: #24292b4b;
+   height: 85px;
+}
+
+.profile__bottom__section {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   height: 60px;
+}

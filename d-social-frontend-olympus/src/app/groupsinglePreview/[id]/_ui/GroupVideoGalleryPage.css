@@ -1,0 +1,10 @@
+.tas_group_video_container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+    padding-right: 35px;
+}
+
+.tas_group_single_video_container{
+    width: 100%;
+}

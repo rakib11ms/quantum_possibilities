@@ -1,0 +1,13 @@
+.tas_follow_btn_style{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tas_follow_btn_style:focus {
+  outline: none; 
+  border: none; 
+}

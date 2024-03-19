@@ -1,0 +1,232 @@
+div,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+.navbar__main__wrapper {
+   display: grid;
+   grid-template-columns: 4fr 6fr 2fr;
+   background-color: white !important;
+   margin: 0px 0px 5px 14px;
+   padding: 5px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 10000;
+   border-radius: 4px;
+}
+
+/* Left Sidebar */
+.left__sidebar__wrapper {
+   width: 100%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 12px;
+}
+
+.input__box {
+   position: relative;
+}
+
+.searchInput {
+   width: 100%;
+   padding: 10px 10px 10px 30px;
+   border: none;
+   border-radius: 50px;
+   outline: none;
+   font-size: 16px;
+   background-color: #f0f2f5;
+   max-width: 241px;
+}
+.search__icon {
+   position: absolute;
+   left: 10px;
+   top: 15px;
+}
+
+/* Middle-Area */
+.desktop__middle__nav__wrapper {
+   width: 100%;
+   padding: 0px 20px 0px 0px;
+}
+
+.navigation__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+.each__nav__icon {
+   /* border-bottom: 2px solid #307777; */
+}
+
+/* MessageNotificationProfile */
+.Message_Notification_Profile__wrapper {
+   width: 100%;
+   padding-right: 20px;
+}
+.Message_Notification_Profile {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   height: 100%;
+   gap: 20px;
+}
+.icons_wrapper {
+   min-width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   background-color: #f0f2f5;
+   cursor: pointer;
+   position: relative;
+}
+
+.counting__message__notification {
+   position: absolute;
+   top: 0px;
+   right: -5px;
+   font-size: 12px;
+   background-color: #307777;
+   border-radius: 100%;
+   width: 20px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #ffff !important;
+}
+
+.Message_Notification_Profile .profile_img {
+   min-width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   cursor: pointer;
+}
+
+/* Profile Area */
+
+.profile__wrapper {
+   position: relative;
+}
+.Profile__dropdown {
+   position: absolute;
+   top: 65px;
+   right: 0px;
+   background-color: #ffff;
+   width: 250px;
+   border-radius: 8px;
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075);
+   padding: 14px;
+}
+
+.profile__name__img {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 5px;
+   cursor: pointer;
+}
+
+.profile__name__img img {
+   min-width: 50px;
+   height: 50px;
+   border-radius: 100%;
+}
+.profile__name__img p {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.each_content {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+   padding: 8px;
+   margin-bottom: 4px;
+   margin-top: 2px;
+   border-radius: 10px;
+}
+
+.each_content:hover {
+   background-color: #f0f2f5;
+}
+
+.each_content p {
+   font-size: 14px;
+   font-weight: 500;
+   color: black !important;
+   cursor: pointer;
+}
+
+.mobile__navigation {
+   padding: 5px;
+   position: fixed;
+   width: 100%;
+   top: -10px;
+   z-index: 10000;
+   border-radius: 4px;
+}
+
+/* Mobile Nv Navigation  */
+.mobile__nav__top__area {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   background-color: white !important;
+   padding: 0px 10px;
+}
+.Mobile__nav__top__Svg__icon {
+   cursor: pointer;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   gap: 20px;
+}
+.each_nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   height: 40px;
+   width: 40px;
+   padding: 8px;
+   border-radius: 50%;
+   background-color: #f0f2f5;
+}
+
+/* Sign out button */
+.Sign__out__button {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   height: 30px;
+   font-size: 14px;
+   font-weight: 500;
+   background-color: #f0f2f5;
+   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+   .navbar__main__wrapper {
+      display: none;
+   }
+   .mobile__navigation {
+      display: block;
+   }
+}
+@media screen and (min-width: 1025px) {
+   .mobile__navigation {
+      display: none;
+   }
+}

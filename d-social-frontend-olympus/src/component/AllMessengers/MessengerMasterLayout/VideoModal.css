@@ -1,0 +1,8 @@
+.tas_video_container{
+    width: 90vw;
+    height: 80vh;
+    z-index: 11;
+    position: "fixed";
+    top: 1%;
+    left: 0%
+}

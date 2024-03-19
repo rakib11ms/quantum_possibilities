@@ -1,0 +1,88 @@
+/* TopNewsCaro.module.css (or your preferred CSS file) */
+.slide {
+  position: relative;
+}
+
+/* Style for the overlay */
+.overlay {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); Adjust the overlay background color and opacity */
+  color: #fff;
+  /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 2px;
+  align-items: end;
+  text-align: center;
+  opacity: 1;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  /* Change opacity to 1 to make it always visible */
+}
+
+.description {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+/* Style for the overlay text */
+.overlay h3 {
+  visibility: hidden;
+  font-size: 4px;
+  /* Adjust the font size */
+  margin-bottom: 10px;
+  /* Adjust the spacing */
+}
+
+.overlay p {
+  font-size: 10px;
+  /* Adjust the font size */
+}
+
+/* Remove underlines from anchor links */
+.slide a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+.seeMoreLink:hover {
+  text-decoration: underline;
+ 
+
+}
+
+.seeMoreLink {
+  background-color: #fff;
+  margin-bottom: 2px;
+  color: #2e20c7;
+  /* margin-left: 200px; */
+  border-radius: 5px;
+  width: 80px;
+  font-size: 0.8rem !important;
+}
+
+.topNewsCaroCssimgdiv{
+  height: 22vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.topNewsCaroCssimg{
+  height: 100%;
+  width: 100%;
+}

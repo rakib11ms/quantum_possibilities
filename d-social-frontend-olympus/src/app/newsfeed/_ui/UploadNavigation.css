@@ -1,0 +1,10 @@
+.tas_button_navigation{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.tas_button_navigation:focus{
+    border: none;
+    outline: none;
+}

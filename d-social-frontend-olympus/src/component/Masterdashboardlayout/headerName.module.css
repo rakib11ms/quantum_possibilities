@@ -1,0 +1,31 @@
+.animated_header {
+  display: inline-block;
+}
+
+.animated_word {
+  display: inline-block;
+  animation: bounceAndChangeColor 2s infinite alternate;
+}
+
+@keyframes bounceAndChangeColor {
+  0% {
+    transform: translateY(0);
+    color: red;
+  }
+  25% {
+    transform: translateY(-10px);
+    color: blue;
+  }
+  50% {
+    transform: translateY(0);
+    color: green;
+  }
+  75% {
+    transform: translateY(10px);
+    color: orange;
+  }
+  100% {
+    transform: translateY(0);
+    color: red;
+  }
+}

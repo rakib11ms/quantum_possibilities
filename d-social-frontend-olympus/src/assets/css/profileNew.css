@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Inter:wght@100;400;500;700&family=Montserrat:wght@100;400&family=Noto+Sans+Osmanya&family=Poppins:wght@100;400;500&family=Roboto:wght@100;300&display=swap");
+
+.Profi-Cov-div {
+  position: relative;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  /* You can adjust the z-index based on your layout needs */
+  cursor: pointer;
+}
+
+.Profi-Cov {
+  width: 100%;
+  /* or adjust as needed */
+  height: 47vh;
+  /* or adjust as needed */
+  object-fit: cover;
+}
+
+.body-part {
+  /* border: 1px solid gray; */
+  /* padding: ; */
+  margin: -5px 0 0 0;
+  background-color: white;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.Upload-Cove-hoto-text-div {
+  position: absolute;
+  bottom: 130px;
+  right: 130px;
+  border-radius: 10px;
+  padding: 10px;
+  /* Add padding as needed */
+  background-color: rgba(226, 226, 226, 0.171);
+  color: white;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer!important;
+}
+
+.Upload-Cove-hoto-text-div p {
+  color: white;
+  /* Set text color as needed */
+  margin: 0;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer!important;
+}
+.Upload-Cover-photo-text-div {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  /* Add padding as needed */
+  background-color: rgba(226, 226, 226, 0.171);
+  color: white;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer!important;
+}
+
+.Upload-Cover-photo-text-div p {
+  color: white;
+  /* Set text color as needed */
+  margin: 0;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer!important;
+}
+
+.profile-img-div {}
+
+.prof-info-texts-h {
+  color: #000;
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.117px;
+  margin-right: 5px;
+}
+
+.prof-info-texts-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.page-info-texts-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+
+.prof-info-texts-p {
+  /* border: 1px solid gray; */
+  width: 150px;
+  text-align: start;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  /* 135.714% */
+  letter-spacing: 0.1px;
+}
+.page-info-texts-p {
+  /* border: 1px solid gray; */
+  /* width: 150px; */
+  text-align: start;
+  color: #65676B;
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  /* 135.714% */
+  letter-spacing: 0.1px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin: -65px 0 0 0;
+  border-radius: 100%;
+  border: 6px solid #307777;
+}
+
+.post-follower-following-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+.page-search-details-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.page-btn-layout{
+  display: flex;
+  color: #FFF;
+  width: 141px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+
+}
+.page-btn-layout-second{
+  display: flex;
+  color: #FFF;
+  width: 95px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+
+}
+.page-btn-layout-msngr{
+  display: flex;
+  color: #FFF;
+  width: 120px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+
+}
+.page-btn-layout-sm{
+  display: flex;
+  color: #FFF;
+  width: 50px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  top: 2px;
+  left: 711px;
+  padding: 9px, 17px, 9px, 17px;
+  border-radius: 6px;
+  gap: 10px;
+}
+.page-btn-layout-design{
+  border-radius: 6px;
+  background: #307777;
+}
+.page-btn-layout-design-sm{
+  border-radius: 6px;
+  background: #E4E6EB;
+}
+
+.prof-auth-name-img-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.profilesss-container {
+  position: relative;
+}
+
+.svg-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 10px;
+  /* Adjust margin as needed */
+}
+
+.prof-timelines-divs {
+  background-color: white;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.prof-edi-btn-div {
+  display: flex;
+  justify-content: start;
+  margin: 0 0 0 20px;
+}
+
+.photos-mob-texts-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.prof-edi-btn {
+  color: #307777;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 155.571px;
+  height: 40.407px;
+  flex-shrink: 0;
+  border: 1px solid rgba(48, 119, 119, 1);
+  border-radius: 10px;
+  background: #FFF;
+}
+
+.connections-map {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-grow: 3; */
+  /* flex-basis: 50; */
+  gap: 5px;
+  /* border: 1px solid gray; */
+
+  /* padding: 0 0 0 6px; */
+}
+
+.connections-map-image {
+  /* width: 50px; */
+  /* height: 50px; */
+}
+
+.indi-card-div {
+  width: 80px;
+  padding: 5px;
+}
+
+.indi-card-prof-text {
+  font-size: .6rem;
+}
+
+@media only screen and (max-width: 1370px) {}

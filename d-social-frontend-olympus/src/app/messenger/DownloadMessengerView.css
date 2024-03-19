@@ -1,0 +1,26 @@
+.tas_download_messenge_container{
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tas_download_messenge_img{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.tas_download_messenge_btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px 50px;
+    background-color: #307777;
+    color: #fff;
+    border: none;
+    font-family: "Poppins";
+    margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+.tas_letter_container{
+    width: 37px;
+height: 37px;
+    background-color: #307777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tas_letter{
+color: #fff !important;
+font-size: 20px;
+font-weight: bold;
+}

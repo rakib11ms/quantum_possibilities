@@ -1,0 +1,81 @@
+.location__wrapper {
+   min-width: 450px;
+   padding-bottom: 20px;
+}
+
+/*___________ For Tablte Version Responsive ____________ */
+@media screen and (max-width: 1025px) {
+   .location__wrapper {
+      min-width: 350px;
+   }
+}
+
+.location__wrapper .top__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   color: #333 !important;
+   padding: 8px 20px;
+}
+
+.location__wrapper .top__wrapper p {
+   color: #050505;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.location__search__wrapper {
+   padding: 0px 20px;
+}
+
+.location__search__input {
+   width: 100%;
+   outline: none;
+   margin: 2px;
+   margin-top: 10px;
+   border-radius: 8px;
+   padding: 4px 8px;
+   resize: none;
+   background-color: #f0f2f5;
+   border-radius: 50px;
+}
+
+.location__search__wrapper .suggestion {
+   color: #86878b;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 8px;
+}
+
+.location__name__wrapper {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.location__name__wrapper .tittle {
+   color: #000;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 14px; /* 100% */
+   letter-spacing: 0.16px;
+}
+
+.location__name__wrapper .sub_tittle {
+   color: #000;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16px; /* 133.333% */
+   letter-spacing: 0.12px;
+   margin-top: 2px;
+}

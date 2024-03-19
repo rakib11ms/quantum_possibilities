@@ -1,0 +1,48 @@
+.explore__content__area {
+   border-radius: 6px;
+}
+.explore__content__area .explore {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.explore__content__area .search__icons {
+   position: absolute;
+   top: 12px;
+   left: 8px;
+}
+.explore__content__area .inputBox {
+   padding-left: 30px;
+   background-color: #f0f2f5;
+   border-radius: 50px;
+   outline: none;
+}
+
+.trending__tag__wrapper {
+   width: 100%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+.trending__tag__wrapper .trending__tag {
+   background-color: #ffffff;
+   color: #000000 !important;
+   border: 1px solid rgba(128, 128, 128, 0.395);
+   width: fit-content;
+   padding: 4px 10px;
+   border-radius: 50px;
+   font-size: 14px;
+   cursor: pointer;
+}
+.trending__tag__wrapper .trending__tag__active {
+   background-color: #307777;
+   color: #ffffff !important;
+   width: fit-content;
+   padding: 4px 10px;
+   border-radius: 50px;
+   font-size: 14px;
+   cursor: pointer;
+}

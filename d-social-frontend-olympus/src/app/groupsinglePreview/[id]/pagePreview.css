@@ -1,0 +1,33 @@
+.group-bio-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.group-bio-textsec {
+  margin-top: 5px;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.private_group_page_block_right_view_about {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 182.1%;
+  /* 21.852px */
+  padding-right: 20px;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+.private_group_page_block_right_view_about_button {
+  color: #664bc9;
+  font-family: Poppins;
+  font-size: 12px;
+  
+  font-weight: 600;
+  line-height: 182.1%;
+  padding-right: 25px;
+  border: 0px;
+  background-color: #fff;
+  cursor: pointer;
+}

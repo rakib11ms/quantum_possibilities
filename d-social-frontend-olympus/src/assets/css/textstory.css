@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Inter:wght@100;300;400;500;700&family=Libre+Bodoni:ital@0;1&family=Libre+Franklin:wght@100;400;500;600;700;800&family=Montserrat:wght@100;400&family=Noto+Sans+Osmanya&family=Poppins:wght@100;400;500;600;700;800;900&family=Rethink+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap");
+.color-palette {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.color-swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Define your color swatches */
+.color-swatch.red {
+  background-color: #ff0000;
+}
+
+.color-swatch.yellow {
+  background-color: #fffb00;
+}
+
+.color-swatch.black {
+  background-color: #0c0c0b;
+}
+
+.color-swatch.bleu {
+  background-color: #14744f;
+}
+
+.color-swatch.green {
+  background-color: #00ff00;
+}
+
+.color-swatch.light-blue {
+  background-color: #3498db;
+}
+
+.color-swatch.blue {
+  background-color: #0000ff;
+}
+
+.color-swatch.white {
+  background-color: #ffff;
+  border: 1px solid rgb(197, 193, 193);
+}
+
+.color-preview {
+  /* width: 20px; */
+  height: 20px;
+  /* display: inline-block; */
+  margin: 10px 0 0 0;
+
+  /* Adjust as needed */
+  border: 1px solid #ccc;
+  width: 100%;
+  /* Add a border for decoration */
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.select-items {
+  height: 2vh;
+}
+
+.input-color {
+  width: 100%;
+}

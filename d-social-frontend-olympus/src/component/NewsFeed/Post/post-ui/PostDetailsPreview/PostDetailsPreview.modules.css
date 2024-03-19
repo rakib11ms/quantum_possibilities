@@ -1,0 +1,26 @@
+.post_details_container {
+  width: 70vw;
+  height: 80vh;
+}
+
+.post_details_wrapper {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
+
+/* photo_details_comment */
+.photo_details_comment .wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* _______ For Mobile Version Responsive ________ */
+@media screen and (max-width: 767px) {
+  .post_details_container {
+    width: 100vw;
+  }
+  .post_details_wrapper {
+    grid-template-columns: 12fr;
+  }
+}

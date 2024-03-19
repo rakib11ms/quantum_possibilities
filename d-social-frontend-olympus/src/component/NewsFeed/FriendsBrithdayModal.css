@@ -1,0 +1,73 @@
+.tas_friend_birthday_modal_container{
+    width: 557px;
+    max-height: 400px;
+border-radius: 30px;
+overflow: scroll;
+}
+
+.tas_friend_birthday_modal_container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.tas_friend_birthday_modal_container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.tas_friend_birthday_modal_container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tas_friend_birthday_modal_item_container{
+padding-bottom: 20px;
+}
+
+.tas_friend_birthday_modal_title{
+    color: #333 !important;
+text-align: center;
+font-family: Roboto !important;
+font-size: 24px;
+font-weight: bold;
+}
+
+.tas_friend_birthday_modal_line{
+    height: 1px;
+    opacity: 0.1;
+    background: #030229;
+}
+
+.tas_friend_birthday_item_img{
+    width: 63px;
+height: 63px;
+border-radius: 63px;
+object-fit: cover;
+}
+
+.tas_friend_birthday_item_name_container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.tas_friend_birthday_item_name{
+    color: #050505 !important;
+font-family: "Poppins";
+font-size: 15px;
+}
+
+.tas_friend_birthday_item_year{
+    color: #8E8E8E !important;
+font-family: "Poppins";
+font-size: 12px;
+margin-top: 2px;
+}
+
+.tas_friend_birthday_item_input{
+    width: 430px;
+height: 35px;
+border-radius: 25px;
+background: #F0F2F5;
+margin-left: 12px;
+margin-top: 6px;
+}

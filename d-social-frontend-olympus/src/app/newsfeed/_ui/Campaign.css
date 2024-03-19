@@ -1,0 +1,132 @@
+.tas_campaign_container{
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.tas_campaign_all_item_container{
+display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tas_campaign_sponsored{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.tas_campaign_item_container{
+    border-radius: 5px;
+}
+
+.tas_campaign_item_container_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.tas_campaign_item_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tas_campaign_item_page_name_container{
+    margin-left: 10px;
+}
+
+.tas_campaign_item_page_name{
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #395996 !important;
+}
+
+.tas_campaign_item_sponsors_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.tas_campaign_item_sponsors{
+   font-family: "Poppins";
+    font-size: 13px;
+    color: #606770 !important;
+    
+}
+
+.threesdotContainer{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.tas_campaign_item_details_container{
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.tas_campaign_item_details{
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #1D2129 !important;
+    text-align: justify;
+}
+
+.tas_campaign_item_keywords_container{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #395996 !important;
+    flex-wrap: wrap;
+}
+
+.tas_campaign_item_details_img{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    margin-top: 10px;
+}
+
+.tas_campaign_item_container_bottom{
+    background-color: #E5E6EC;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.tas_campaign_item_container_bottom_website{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #606770 !important;
+}
+
+.tas_campaign_item_container_bottom_heading{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tas_campaign_item_container_bottom_button{
+    background-color: #E5E6EC;
+    border: 1px solid #BEC3C9;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+    color: #4B4F56;
+}
